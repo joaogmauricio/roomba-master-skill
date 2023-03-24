@@ -1,10 +1,8 @@
-Please clean the {room}.
-Could you clean the {room}?
-It's time to clean the {room}.
-The {room} needs to be cleaned.
-Let's clean the {room}.
-Time for some {room} cleaning.
+(Tell | ask | send | order) {cleaning_robot} ((to) please) ((start cleaning) | ((to) clean)) the {room} (floor) (please | now).
+Could you (start cleaning | (to) clean) the {room} (floor)?
+It's time to (start cleaning | (to) clean) the {room} (floor).
+The {room} (floor) needs to be cleaned.
+Let's (start cleaning | (to) clean) the {room} (floor).
 Can you take care of the {room} cleaning?
-It's your turn to clean the {room}.
-We should clean the {room} now.
-The {room} is a mess, please clean it.
+We should (start cleaning | (to) clean) the {room} (floor) now.
+The {room} (floor) is a mess, please (start cleaning | (to) clean) it.

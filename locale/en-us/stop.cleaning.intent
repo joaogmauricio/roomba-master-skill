@@ -1,11 +1,10 @@
-Please stop cleaning.
-Could you pause your cleaning for a moment?
+(Tell | ask | order) {cleaning_root} ((to) please) stop cleaning.
+(Tell | ask | order) {cleaning_root} ((to) please) go home.
+Could you pause your cleaning?
 It's time to stop cleaning.
 That's enough cleaning for now, please stop.
 Let's take a break from cleaning.
 You can stop cleaning now.
 Please suspend your cleaning activities.
-Let's call it a day on the cleaning.
-Time to put the cleaning on hold.
-We should stop cleaning and do something else.
+We should stop cleaning.
 
