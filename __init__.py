@@ -1,6 +1,5 @@
 from mycroft import MycroftSkill, intent_handler
 
-
 class RoombaMaster(MycroftSkill):
 
     rooms = []

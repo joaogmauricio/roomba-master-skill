@@ -1,8 +1,12 @@
-(Tell | ask | send | order) {cleaning_robot} ((to) please) ((start cleaning) | ((to) clean)) the {room} (floor) (please | now).
-Could you (start cleaning | (to) clean) the {room} (floor)?
-It's time to (start cleaning | (to) clean) the {room} (floor).
-The {room} (floor) needs to be cleaned.
-Let's (start cleaning | (to) clean) the {room} (floor).
-Can you take care of the {room} cleaning?
-We should (start cleaning | (to) clean) the {room} (floor) now.
-The {room} (floor) is a mess, please (start cleaning | (to) clean) it.
+( | please) clean the {room} ( | floor) ( | please) ( | please)
+( | please) start cleaning the {room} ( | floor) ( | please)
+( | please) {cleaning_robot} clean the {room} ( | floor) ( | please)
+( | please) {cleaning_robot} start cleaning the {room} ( | floor) ( | please)
+( | please) tell {cleaning_robot} to clean the {room} ( | floor) ( | please)
+( | please) ask {cleaning_robot} to clean the {room} ( | floor) ( | please)
+( | please) order {cleaning_robot} to clean the {room} ( | floor) ( | please)
+( | please) send {cleaning_robot} to clean the {room} ( | floor) ( | please)
+( | please) tell {cleaning_robot} to start cleaning the {room} ( | floor)( | please)
+( | please) ask {cleaning_robot} to start cleaning the {room} ( | floor) ( | please)
+( | please) order {cleaning_robot} to start cleaning the {room} ( | floor) ( | please)
+( | please) send {cleaning_robot} to start cleaning the {room} ( | floor) ( | please)
