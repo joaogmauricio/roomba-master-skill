@@ -1,19 +1,21 @@
 from mycroft import MycroftSkill, intent_handler
+import os.path
 
 class RoombaMaster(MycroftSkill):
 
-    rooms = []
+    _rooms = []
 
     def initialize(self):
         self.register_entity_file('room.entity')
         self.register_entity_file('cleaning_robot.entity')
-        with open ('/opt/mycroft/skills/roomba-master-skill/locale/en-us/room.entity') as rooms_file:
-            self.rooms = rooms_file.read().splitlines()
+        filename = os.path.dirname(__file__) + '/locale/en-us/room.entity'
+        with open (filename, mode='r') as rooms_file:
+            self._rooms = rooms_file.read().splitlines()
 
     @intent_handler('start.cleaning.intent')
     def handle_start_cleaning(self, message):
         room_utterance = message.data.get('room')
-        for room in self.rooms:
+        for room in self._rooms:
             if room in room_utterance:
                 self.speak_dialog('comply', {'room': room})
 
