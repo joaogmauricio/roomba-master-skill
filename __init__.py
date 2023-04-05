@@ -14,6 +14,7 @@ class RoombaMaster(MycroftSkill):
 
 	@intent_handler('start.cleaning.intent')
 	def handle_start_cleaning(self, message):
+		self.log.info("Start Cleaning intent selected.")
 		room_utterance = message.data.get('room')
 		for room in self._rooms:
 			if room in room_utterance:

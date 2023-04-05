@@ -1,5 +1,5 @@
-(Tell | ask | order) {cleaning_root} ((to) please) stop cleaning.
-(Tell | ask | order) {cleaning_root} ((to) please) go home.
+(Tell | ask | order) {cleaning_robot} ((to) please) stop cleaning.
+(Tell | ask | order) {cleaning_robot} ((to) please) go home.
 Could you pause your cleaning?
 It's time to stop cleaning.
 That's enough cleaning for now, please stop.
